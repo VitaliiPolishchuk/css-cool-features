@@ -1,0 +1,26 @@
+.position-stiky-push-out {
+  .content {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  section {
+    display: grid;
+    grid: auto / 200px 1fr;
+    grid-gap: 0 2rem;
+    p {
+      grid-column: 2 / 3;
+    }
+  }
+
+  .section-title {
+    grid-column: 1 / 2;
+    text-align: center;
+    align-self: flex-start;
+    top: 1em;
+    position: sticky;
+  }
+
+
+}
